@@ -1,0 +1,66 @@
+\documentclass{book}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+
+\def\secref{%
+  \ref%
+}
+
+\def\tm{\texttrademark}
+
+\def\keyword{\textbf}
+
+\makeatletter
+\newenvironment{abstract}{% 
+	\small
+    \begin{center}
+      {
+        \bfseries \abstractname\vspace{-.5em}\vspace{\z@}
+      }
+    \end{center}%
+    \quotation
+}
+\makeatother
+
+\author{Georges Dupéron}
+\title{Mise À Niveau en Informatique}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+  Si vous ne savez pas ce qu'est un algorithme, un «debugger», un système d'exploitation ou encore un transistor, et que vous voulez apprendre ce genre de choses simplement, ce cours est pour vous.
+\end{abstract}
+
+% Pas de mots compliqués, pas de phrases longues, facile de retrouver un passage en feuilletant -> Mettre des images facilement reconaissables pour identifier les sections et chapitres. Mais surtout avoir une exactitude technique.
+
+\newpage
+\tableofcontents
+
+\chapter{Préparer votre environnement de travail}
+Dans ce chapitre, nous allons préparer un ordinateur avec tout ce qu'il faut pour pouvoir travailler agréablement dessus, échanger des fichiers avec d'autres ordinateurs (ceux de la fac ou d'un ami), et ne pas perdre son travail en cas de problème.
+
+Cette section contient un condensé des sections \secref{sec:Système d'exploitation}, \dots % TODO
+
+\section[Installer UBUNTU]{Installer un système d'exploitation (LINUX, distribution UBUNTU)}
+\subsection{Linux}
+Quand vous allumez votre ordinateur, un écran d'accueil s'affiche. Cet écran d'accueil permet d'aller sur internet, de taper du texte, d'écouter de la musique, etc. On appelle cet écran d'accueil un système d'exploitation\footnote{Inexact. Voir \secref{sec:Système d'exploitation} pour plus d'infos.}. On appelle les outils qui permettent d'aller sur internet, de taper du texte, etc. des programmes.
+
+Les programmes ont besoin d'un système d'exploitation pour fonctionner. % Important
+
+Quand vous avez acheté votre ordinateur, il avait probablement Windows\tm{} comme système d'exploitation. Il en existe d'autres (Linux, Mac OS, BSD, \dots). Les ordinateurs de la fac utilisent Linux. On va mettre la même chose sur votre ordinateur.
+
+\subsection{Distributions}
+Linux n'est que le coeur du système d'exploitation (le moteur). On ne peut presque rien faire avec. Il y a des \keyword{distributions}, qui mettent ensemble linux, et des programmes intéressants à utiliser (les roues, le GPS). On va utiliser UBUNTU, une distribution facile à installer et à utiliser.
+
+\section{Sauvegardes}
+
+\chapter{Chapitre}
+
+\section{Archi}
+
+\section{Système d'exploitation}
+\label{sec:Système d'exploitation}
+
+\end{document}
